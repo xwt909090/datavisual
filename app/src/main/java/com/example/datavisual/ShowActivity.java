@@ -164,12 +164,12 @@ public class ShowActivity extends AppCompatActivity implements OnTouchListener {
                         bm.getHeight(), m, true);
             }
         }
-        else{
+        /*else{
             Matrix m = new Matrix();
             m.postRotate(90);
             bm = Bitmap.createBitmap(bm, 0, 0, bm.getWidth(),
                     bm.getHeight(), m, true);
-        }
+        }*/
         //调整方向
         createScaledBitmap();
         myImageView.setImageBitmap(bm);
