@@ -35,8 +35,8 @@
                     android:layout_gravity="top|start"
                     android:layout_margin="16dp"
                     app:fabSize="mini"
-                    app:backgroundTint="@color/cardview_light_background"
-                    android:src="@drawable/ic_backup"
+                    app:backgroundTint="#ffffff"
+                    android:src="@drawable/arrow_left_pic"
                     app:elevation="16dp"/>
 
         </FrameLayout>

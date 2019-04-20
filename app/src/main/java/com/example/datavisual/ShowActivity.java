@@ -225,21 +225,21 @@ public class ShowActivity extends AppCompatActivity implements OnTouchListener {
 
     private void initFruits() {
 
-        PowerButton apple = new PowerButton("编辑", R.drawable.apple_pic);
+        PowerButton apple = new PowerButton("编辑", R.drawable.bianji_pic);
         powerbuttonList.add(apple);
-        PowerButton banana = new PowerButton("左旋转", R.drawable.banana_pic);
+        PowerButton banana = new PowerButton("左旋转", R.drawable.zuoxuanzhuan_pic);
         powerbuttonList.add(banana);
-        PowerButton orange = new PowerButton("右旋转", R.drawable.orange_pic);
+        PowerButton orange = new PowerButton("右旋转", R.drawable.youxuanzhuan_pic);
         powerbuttonList.add(orange);
-        PowerButton watermelon = new PowerButton("放大", R.drawable.watermelon_pic);
+        PowerButton watermelon = new PowerButton("放大", R.drawable.fangda_pic);
         powerbuttonList.add(watermelon);
-        PowerButton pear = new PowerButton("缩小", R.drawable.pear_pic);
+        PowerButton pear = new PowerButton("缩小", R.drawable.suoxiao_pic);
         powerbuttonList.add(pear);
-        PowerButton grape = new PowerButton("剪切", R.drawable.grape_pic);
+        PowerButton grape = new PowerButton("剪切", R.drawable.jianqie_pic);
         powerbuttonList.add(grape);
-        PowerButton pineapple = new PowerButton("恢复", R.drawable.pineapple_pic);
+        PowerButton pineapple = new PowerButton("恢复", R.drawable.huifu_pic);
         powerbuttonList.add(pineapple);
-        PowerButton strawberry = new PowerButton("保存", R.drawable.strawberry_pic);
+        PowerButton strawberry = new PowerButton("保存", R.drawable.baocun_pic);
         powerbuttonList.add(strawberry);
 
     }
